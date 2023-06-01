@@ -13,8 +13,7 @@ def get_user(user_id):
     if extra:
         user_data['extra'] = extra
     
-    return jsonify(user_data), 200
-
+    return jsonify(user_data), 200 # status code (success)
 
 ''' 
 GET = request dara from a specified resource
